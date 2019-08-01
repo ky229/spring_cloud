@@ -1,15 +1,15 @@
-#Ó¦ÓÃ³ÌĞòÃû³ÆºÍÆô¶¯¶Ë¿ÚºÅ
+#è®¾ç½®é¡¹ç›®åå’Œç«¯å£å·
 spring:
   application:
     name: eureka-client-demo
 server:
   port: 8080
 
-#eureka×¢²áÖĞĞÄ
+#eurekaå®¢æˆ·ç«¯æ³¨å†Œ
 eureka:
   client:
     service-url:
-      default-Zone: http://eureka1:8761£¬http://eureka2:8762£¬http://eureka3:8763£¬
+      default-Zone: http://eureka1:8761??http://eureka2:8762??http://eureka3:8763??
   instance:
     hostname: client-demo-yyy
     appname: client-demo-xxx
