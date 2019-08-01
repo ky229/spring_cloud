@@ -1,0 +1,17 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /mybaitis
+
+#mybatis
+mybatis:
+  type-aliases-package: com.wky.spring_colud.mybaits.mapper
+  mapper-locations: classpath*:mapping/*.xml
+
+# Mysql
+spring:
+  datasource:
+    username: spring_boot
+    password: spring_boot
+    url: jdbc:mysql://localhost:3306/spring_boot_db?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
