@@ -1,0 +1,13 @@
+#应用程序名称
+spring:
+  application:
+    name: eureka
+#应用程序启动端口，eureka默认为8761
+server:
+  port: 8761
+eureka:
+  client:
+    #不将本服务注册至eureka服务器中
+    register-with-eureka: false
+    service-url:
+      default-Zone: http://eureka2:8762, http://eureka3:8763，

@@ -1,0 +1,4 @@
+#默认加载的配置文件
+spring:
+  profiles:
+    active: eureka1
