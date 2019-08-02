@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: order
+  datasource:
+    username: spring_cloud
+    password: spring_cloud
+    url: jdbc:mysql://127.0.0.1:3306/spring_cloud?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8080
+eureka:
+  client:
+#    注册中心
+    service-url:
+      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/
+#  注册中心中显示IP地址
+  instance:
+    prefer-ip-address: true
