@@ -4,9 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.wky.spring-cloud.ordering-system</groupId>
-        <artifactId>product-server</artifactId>
+        <artifactId>product</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
+<!--        <relativePath>../product-common/pom.xml</relativePath>-->
     </parent>
     <groupId>com.wky.spring-cloud.ordering-system</groupId>
     <artifactId>product-common</artifactId>
