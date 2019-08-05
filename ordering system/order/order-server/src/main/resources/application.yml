@@ -10,9 +10,9 @@ server:
   port: 8080
 eureka:
   client:
-#    注册中心
+#    娉ㄥ唽涓績
     service-url:
-      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/
-#  注册中心中显示IP地址
+      defaultZone: http://eureka1:8761/, http://eureka2:8762/
+#  娉ㄥ唽涓績涓樉绀篒P鍦板潃
   instance:
     prefer-ip-address: true
